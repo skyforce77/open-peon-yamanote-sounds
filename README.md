@@ -1,12 +1,18 @@
-# OpenPeon - Japan Rail 🚄
+<p align="center">
+  <img src="icons/pack.png" width="180" alt="Yamanote Sounds mascot" />
+</p>
 
-A [CESP](https://openpeon.com)-compliant sound pack for [OpenPeon](https://openpeon.com) featuring authentic Japanese train station jingles and public address announcements.
+# OpenPeon - Yamanote Sounds 🚄💚
+
+A [CESP](https://openpeon.com)-compliant sound pack for [OpenPeon](https://openpeon.com) featuring authentic Japanese train station jingles and public address announcements, themed on Tokyo's **Yamanote Line** and paired with a kawaii **E235 train mascot** that reacts to every event state.
+
+> A fork of [japan-rail](https://github.com/adambullmer) by Adam Bullmer, extended with a custom kawaii icon set — one mascot expression per event lifecycle state.
 
 ## Description
 
-Step onto the platform and let your coding sessions run on the Yamanote Line. This pack brings the iconic soundscape of Japanese rail travel to your agentic IDE with departure melodies, arrival chimes, gate beeps, and platform safety warnings all mapped to your AI assistant's event lifecycle.
+Step onto the platform and let your coding sessions run on the Yamanote Line. This pack brings the iconic soundscape of Japanese rail travel to your agentic IDE with departure melodies, arrival chimes, gate beeps, and platform safety warnings all mapped to your AI assistant's event lifecycle — each one fronted by its own mascot icon, from a cheerful "doors closing" wave to a dizzy "too fast!" screech.
 
-Whether you're waiting for a tool call to complete or watching a task run off the rails, Japan Rail keeps you on schedule.
+Whether you're waiting for a tool call to complete or watching a task run off the rails, Yamanote Sounds keeps you on schedule.
 
 ## Installation
 
@@ -17,79 +23,74 @@ Install via the [OpenPeon registry](https://openpeon.com) or manually:
 
 ## Supported Categories
 
-| Category           | # Sounds | Description                                                    |
-| ------------------ | -------- | -------------------------------------------------------------- |
-| `session.start`    | 3        | Platform announcements played when a session opens             |
-| `task.acknowledge` | 10       | Departure melodies played when a task is accepted and begins   |
-| `task.complete`    | 3        | Arrival announcements played when a task finishes successfully |
-| `task.error`       | 6        | Warning and trouble announcements played on failure            |
-| `task.progress`    | 2        | Train-rolling ambience for long-running tasks                  |
-| `input.required`   | 4        | Ticket gate chimes played when user input is needed            |
-| `user.spam`        | 2        | Train screeching played when requests come in too fast         |
-| `resource.limit`   | 1        | Ticket gate error beeps when quota or token limits are reached |
+| Icon | Category           | # Sounds | Description                                                       |
+| ---- | ------------------ | -------- | --------------------------------------------------------------- |
+| <img src="icons/session_start.png" width="44" />   | `session.start`    | 3        | Boarding melodies when a session opens                          |
+| <img src="icons/task_acknowledge.png" width="44" /> | `task.acknowledge` | 30       | The authentic departure melody of **every Yamanote Line station** |
+| <img src="icons/task_complete.png" width="44" />    | `task.complete`    | 3        | Iconic station melodies as an arrival flourish                  |
+| <img src="icons/task_error.png" width="44" />       | `task.error`       | 1        | The old-style departure bell as a warning                       |
+| <img src="icons/task_progress.png" width="44" />    | `task.progress`    | 2        | Rolling melodies for long-running tasks                         |
+| <img src="icons/input_required.png" width="44" />   | `input.required`   | 2        | Gate-style chimes played when user input is needed              |
+| <img src="icons/user_spam.png" width="44" />        | `user.spam`        | 1        | Departure bell when requests come in too fast                   |
+| <img src="icons/resource_limit.png" width="44" />   | `resource.limit`   | 1        | Departure bell when quota or token limits are reached           |
 
 ## Sound Details
 
-### `session.start`
+Every sound is a Yamanote Line departure melody (発車メロディ). `task.acknowledge` plays a different station each time — the full loop, in order.
 
-- Doors are closing announcement
-- Train will depart shortly announcement
-- Thank you for waiting announcement
+### `task.acknowledge` — the full Yamanote loop (30 stations)
 
-### `task.acknowledge`
+| Station | Melody |
+| ------- | ------ |
+| Tokyo 東京 | Departure Melody |
+| Kanda 神田 | Seseragi (Babbling Brook) |
+| Akihabara 秋葉原 | Ogawa no Sasayaki |
+| Okachimachi 御徒町 | Haru (Spring) |
+| Ueno 上野 | Flower Shop |
+| Uguisudani 鶯谷 | Haru (Spring) |
+| Nippori 日暮里 | Haru (Spring) |
+| Nishi-Nippori 西日暮里 | Haru (Spring) |
+| Tabata 田端 | Haru (Spring) |
+| Komagome 駒込 | Sakura Sakura |
+| Sugamo 巣鴨 | Haru (Spring) |
+| Ōtsuka 大塚 | Haru (Spring) |
+| Ikebukuro 池袋 | Departure Melody |
+| Mejiro 目白 | Haru (Spring) |
+| Takadanobaba 高田馬場 | **Astro Boy** (Tetsuwan Atom) |
+| Shin-Ōkubo 新大久保 | Spring |
+| Shinjuku 新宿 | Aratana Tabidachi |
+| Yoyogi 代々木 | Haru (Spring) |
+| Harajuku 原宿 | Departure Melody |
+| Shibuya 渋谷 | Hana no Hokorobi |
+| Ebisu 恵比寿 | **The Third Man** |
+| Meguro 目黒 | Water Crown |
+| Gotanda 五反田 | Departure Melody |
+| Ōsaki 大崎 | Umi no Eki |
+| Shinagawa 品川 | Seseragi |
+| Takanawa Gateway 高輪ゲートウェイ | Sweet Call |
+| Tamachi 田町 | Seseragi |
+| Hamamatsuchō 浜松町 | Seseragi |
+| Shimbashi 新橋 | Gota del Viento |
+| Yūrakuchō 有楽町 | Departure Melody |
 
-- Akabaneiwabuchi Departure Melody
-- Akasakamitsuke Rain Shower Melody
-- Asakusa Departure Melody
-- Tokyo Train Station Departure Melody 6
-- Akihabara Departure Melody
-- Chikatetu Narimasu Departure Melody
-- Edogawabashi Departure Melody
-- Fuchu Bunbunbun Departure Melody
-- Fujisawa Departure Melody
-- Ginza Itchome Departure Melody 2
+### Other states
 
-### `task.complete`
+- **`session.start`** — Spring Box / Sunlight / Mellow Time, as a "welcome aboard"
+- **`task.complete`** — Twinkling Skyline / Beyond the Line / Beautiful Hill (arrival flourish)
+- **`task.progress`** — Haru tremolo / Tokyo melody (train rolling)
+- **`input.required`** — station chime / Sweet Call (Takanawa Gateway)
+- **`task.error`**, **`user.spam`** — Fighting Spirit as an alert
+- **`resource.limit`** — station chime
 
-- Next stop is Tokyo announcement
-- Terminal station Tokyo announcement
-- We have arrived announcement
-
-### `task.error`
-
-- Stand behind the yellow line warning
-- Dangerous rushing announcement
-- Sudden stop warning announcement
-- Trouble occurred announcement
-- Train crossing bell (Voice/Onomatopoeia)
-- Actual train railroad crossing chime
-
-### `task.progress`
-
-- Train rolling on tracks (Voice/Onomatopoeia)
-- Train rolling on tracks (Clickety Clack / Gatan Goton)
-
-### `input.required`
-
-- Ticket gate chime 1
-- Please touch your IC card announcement
-- Please charge card announcement
-- Train crossing intro
-
-### `user.spam`
-
-- Train screeching (Voice/Onomatopoeia)
-- Actual train braking/screeching
-
-### `resource.limit`
-
-- Ticket gate IC card error
+> These non-departure states borrow other Tokyo-area JR melodies. Dedicated arrival announcements, gate chimes and warning sounds can be layered in later.
 
 ## Copyright
 
-The sounds in this pack are authentic recordings from Japanese railway operators (including JR East and Tokyo Metro). Copyright remains with the respective railway companies. This pack is an unofficial fan project with no claim of ownership over the audio content.
+The melodies are Yamanote Line departure jingles (発車メロディ); the compositions remain &copy; their respective composers and JR East. This pack is an unofficial fan project with no claim of ownership over the audio content.
 
 ## Credits
 
-- [Tokyo Train Station Departure Sounds](https://soundcloud.com/user-188398066/sets/tokyo-train-station-departure-sounds) via SoundCloud
-- Original recordings &copy; respective Japanese railway operators
+- Yamanote departure melodies from [morgansleeper/Yamanotes](https://github.com/morgansleeper/Yamanotes)
+- Departure melody compositions &copy; their composers (incl. Minoru Mukaiya, Switch / Hiroaki Ide) and JR East
+- Forked from [japan-rail](https://github.com/adambullmer) by Adam Bullmer
+- Kawaii E235 mascot icon set generated for this fork

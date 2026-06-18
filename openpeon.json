@@ -1,168 +1,227 @@
 {
   "cesp_version": "1.0",
-  "name": "japan-rail",
-  "display_name": "Japan Rail",
+  "name": "yamanote-sounds",
+  "display_name": "Yamanote Sounds",
   "version": "1.0.0",
-  "description": "Japanese Train station jingles and announcements sound pack.",
+  "description": "Japanese Train station jingles and announcements sound pack, themed on the Tokyo Yamanote Line and paired with a kawaii E235 train mascot for every event state.",
+  "icon": "icons/pack.png",
   "author": {
-    "name": "Adam Bullmer",
-    "github": "adambullmer"
+    "name": "Skyforce77",
+    "github": "skyforce77"
   },
+  "homepage": "https://github.com/skyforce77/open-peon-yamanote-sounds",
+  "repository": "https://github.com/skyforce77/open-peon-yamanote-sounds",
   "language": "en",
   "categories": {
     "session.start": {
+      "icon": "icons/session_start.png",
       "sounds": [
         {
-          "file": "sounds/session_start_door_closing.mp3",
-          "label": "Doors are closing announcement"
+          "file": "sounds/yamanote_springbox.mp3",
+          "label": "Boarding — Spring Box"
         },
         {
-          "file": "sounds/session_start_departing_shortly.mp3",
-          "label": "Train will depart shortly announcement"
+          "file": "sounds/yamanote_sunlight.mp3",
+          "label": "Welcome aboard — Sunlight"
         },
         {
-          "file": "sounds/session_start_thank_you_waiting.mp3",
-          "label": "Thank you for waiting announcement"
+          "file": "sounds/yamanote_mellowtime.mp3",
+          "label": "Platform — Mellow Time"
         }
       ]
     },
     "task.acknowledge": {
+      "icon": "icons/task_acknowledge.png",
       "sounds": [
         {
-          "file": "sounds/task_acknowledge_akabaneiwabuchi.mp3",
-          "label": "Akabaneiwabuchi Departure Melody"
+          "file": "sounds/yamanote_tokyo.mp3",
+          "label": "Tokyo 東京 — Departure Melody"
         },
         {
-          "file": "sounds/task_acknowledge_akasakamitsuke.mp3",
-          "label": "Akasakamitsuke Rain Shower Melody"
+          "file": "sounds/yamanote_seseragi.mp3",
+          "label": "Kanda 神田 — Seseragi (Babbling Brook)"
         },
         {
-          "file": "sounds/task_acknowledge_asakusa.mp3",
-          "label": "Asakusa Departure Melody"
+          "file": "sounds/yamanote_akihabara.mp3",
+          "label": "Akihabara 秋葉原 — Ogawa no Sasayaki"
         },
         {
-          "file": "sounds/task_acknowledge_tokyo_melody_6.mp3",
-          "label": "Tokyo Train Station Departure Melody 6"
+          "file": "sounds/yamanote_haru_tremolo.mp3",
+          "label": "Okachimachi 御徒町 — Haru (Spring)"
         },
         {
-          "file": "sounds/task_acknowledge_akihabara.mp3",
-          "label": "Akihabara Departure Melody"
+          "file": "sounds/yamanote_flowershop.mp3",
+          "label": "Ueno 上野 — Flower Shop"
         },
         {
-          "file": "sounds/task_acknowledge_chikatetu_narimasu.mp3",
-          "label": "Chikatetu Narimasu Departure Melody"
+          "file": "sounds/yamanote_haru_tremolo.mp3",
+          "label": "Uguisudani 鶯谷 — Haru (Spring)"
         },
         {
-          "file": "sounds/task_acknowledge_edogawabashi.mp3",
-          "label": "Edogawabashi Departure Melody"
+          "file": "sounds/yamanote_haru_tremolo.mp3",
+          "label": "Nippori 日暮里 — Haru (Spring)"
         },
         {
-          "file": "sounds/task_acknowledge_fuchu_bunbunbun.mp3",
-          "label": "Fuchu Bunbunbun Departure Melody"
+          "file": "sounds/yamanote_haru_tremolo.mp3",
+          "label": "Nishi-Nippori 西日暮里 — Haru (Spring)"
         },
         {
-          "file": "sounds/task_acknowledge_fujisawa.mp3",
-          "label": "Fujisawa Departure Melody"
+          "file": "sounds/yamanote_haru_tremolo.mp3",
+          "label": "Tabata 田端 — Haru (Spring)"
         },
         {
-          "file": "sounds/task_acknowledge_ginza_itchome_2.mp3",
-          "label": "Ginza Itchome Departure Melody 2"
+          "file": "sounds/yamanote_sakura.mp3",
+          "label": "Komagome 駒込 — Sakura Sakura"
+        },
+        {
+          "file": "sounds/yamanote_haru.mp3",
+          "label": "Sugamo 巣鴨 — Haru (Spring)"
+        },
+        {
+          "file": "sounds/yamanote_haru.mp3",
+          "label": "Ōtsuka 大塚 — Haru (Spring)"
+        },
+        {
+          "file": "sounds/yamanote_ikebukuro.mp3",
+          "label": "Ikebukuro 池袋 — Departure Melody"
+        },
+        {
+          "file": "sounds/yamanote_haru.mp3",
+          "label": "Mejiro 目白 — Haru (Spring)"
+        },
+        {
+          "file": "sounds/yamanote_astroboy.mp3",
+          "label": "Takadanobaba 高田馬場 — Astro Boy (Tetsuwan Atom)"
+        },
+        {
+          "file": "sounds/yamanote_harunew.mp3",
+          "label": "Shin-Ōkubo 新大久保 — Spring"
+        },
+        {
+          "file": "sounds/yamanote_shinjuku.mp3",
+          "label": "Shinjuku 新宿 — Aratana Tabidachi"
+        },
+        {
+          "file": "sounds/yamanote_haru.mp3",
+          "label": "Yoyogi 代々木 — Haru (Spring)"
+        },
+        {
+          "file": "sounds/yamanote_harajuku.mp3",
+          "label": "Harajuku 原宿 — Departure Melody"
+        },
+        {
+          "file": "sounds/yamanote_shibuya.mp3",
+          "label": "Shibuya 渋谷 — Hana no Hokorobi"
+        },
+        {
+          "file": "sounds/yamanote_ebisu.mp3",
+          "label": "Ebisu 恵比寿 — The Third Man"
+        },
+        {
+          "file": "sounds/yamanote_meguro.mp3",
+          "label": "Meguro 目黒 — Water Crown"
+        },
+        {
+          "file": "sounds/yamanote_gotanda.mp3",
+          "label": "Gotanda 五反田 — Departure Melody"
+        },
+        {
+          "file": "sounds/yamanote_osaki.mp3",
+          "label": "Ōsaki 大崎 — Umi no Eki"
+        },
+        {
+          "file": "sounds/yamanote_seseragi.mp3",
+          "label": "Shinagawa 品川 — Seseragi"
+        },
+        {
+          "file": "sounds/yamanote_takanawa.mp3",
+          "label": "Takanawa Gateway 高輪ゲートウェイ — Sweet Call"
+        },
+        {
+          "file": "sounds/yamanote_seseragi.mp3",
+          "label": "Tamachi 田町 — Seseragi"
+        },
+        {
+          "file": "sounds/yamanote_seseragi.mp3",
+          "label": "Hamamatsuchō 浜松町 — Seseragi"
+        },
+        {
+          "file": "sounds/yamanote_shimbashi.mp3",
+          "label": "Shimbashi 新橋 — Gota del Viento"
+        },
+        {
+          "file": "sounds/yamanote_yurakucho.mp3",
+          "label": "Yūrakuchō 有楽町 — Departure Melody"
         }
       ]
     },
     "task.complete": {
+      "icon": "icons/task_complete.png",
       "sounds": [
         {
-          "file": "sounds/task_complete_next_stop_tokyo.mp3",
-          "label": "Next stop is Tokyo announcement"
+          "file": "sounds/yamanote_twinklingskyline.mp3",
+          "label": "Arrival — Twinkling Skyline"
         },
         {
-          "file": "sounds/task_complete_terminal_tokyo.mp3",
-          "label": "Terminal station Tokyo announcement"
+          "file": "sounds/yamanote_beyondtheline.mp3",
+          "label": "Arrival — Beyond the Line"
         },
         {
-          "file": "sounds/task_complete_we_have_arrived.mp3",
-          "label": "We have arrived announcement"
+          "file": "sounds/yamanote_beautifulhill.mp3",
+          "label": "Arrival — Beautiful Hill"
         }
       ]
     },
     "task.error": {
+      "icon": "icons/task_error.png",
       "sounds": [
         {
-          "file": "sounds/task_error_yellow_line.mp3",
-          "label": "Warning announcement (stand behind the yellow line)"
-        },
-        {
-          "file": "sounds/task_error_dangerous_rushing.mp3",
-          "label": "Dangerous rushing announcement"
-        },
-        {
-          "file": "sounds/task_error_sudden_stop.mp3",
-          "label": "Sudden stop warning announcement"
-        },
-        {
-          "file": "sounds/task_error_trouble_occurred.mp3",
-          "label": "Trouble occurred announcement"
-        },
-        {
-          "file": "sounds/task_error_crossing_bell.mp3",
-          "label": "Train crossing bell (Voice/Onomatopoeia)"
-        },
-        {
-          "file": "sounds/task_error_actual_crossing_chime.mp3",
-          "label": "Actual train railroad crossing chime"
+          "file": "sounds/yamanote_fightingspirit.mp3",
+          "label": "Fighting Spirit — warning"
         }
       ]
     },
     "task.progress": {
+      "icon": "icons/task_progress.png",
       "sounds": [
         {
-          "file": "sounds/task_progress_train_rolling.mp3",
-          "label": "Train rolling on tracks (Voice/Onomatopoeia)"
+          "file": "sounds/yamanote_haru_tremolo.mp3",
+          "label": "Train rolling — Haru (tremolo)"
         },
         {
-          "file": "sounds/task_progress_actual_rolling.mp3",
-          "label": "Train rolling on tracks (Clickety Clack / Gatan Goton)"
+          "file": "sounds/yamanote_tokyo.mp3",
+          "label": "In transit — Tokyo melody"
         }
       ]
     },
     "user.spam": {
+      "icon": "icons/user_spam.png",
       "sounds": [
         {
-          "file": "sounds/user_spam_train_screeching.mp3",
-          "label": "Train screeching (Voice/Onomatopoeia)"
-        },
-        {
-          "file": "sounds/user_spam_actual_screeching.mp3",
-          "label": "Actual train braking/screeching"
+          "file": "sounds/yamanote_fightingspirit.mp3",
+          "label": "Fighting Spirit — please slow down"
         }
       ]
     },
     "input.required": {
+      "icon": "icons/input_required.png",
       "sounds": [
         {
-          "file": "sounds/input_required_gate_chime_1.wav",
-          "label": "Ticket gate chime 1"
+          "file": "sounds/yamanote_chime.mp3",
+          "label": "Ticket gate chime"
         },
         {
-          "file": "sounds/input_required_touch_ic_card.mp3",
-          "label": "Please touch your IC card announcement"
-        },
-        {
-          "file": "sounds/input_required_charge_card.mp3",
-          "label": "Please charge card announcement"
-        },
-        {
-          "file": "sounds/input_required_crossing_intro.mp3",
-          "label": "Train crossing intro"
+          "file": "sounds/yamanote_takanawa.mp3",
+          "label": "Takanawa Gateway — Sweet Call"
         }
       ]
     },
     "resource.limit": {
+      "icon": "icons/resource_limit.png",
       "sounds": [
         {
-          "file": "sounds/resource_limit_ic_error.mp3",
-          "label": "Ticket gate IC card error"
+          "file": "sounds/yamanote_chime.mp3",
+          "label": "Station chime — limit reached"
         }
       ]
     }
