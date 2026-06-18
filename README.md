@@ -28,11 +28,11 @@ Install via the [OpenPeon registry](https://openpeon.com) or manually:
 | <img src="icons/session_start.png" width="44" />   | `session.start`    | 3        | Boarding melodies when a session opens                          |
 | <img src="icons/task_acknowledge.png" width="44" /> | `task.acknowledge` | 30       | The authentic departure melody of **every Yamanote Line station** |
 | <img src="icons/task_complete.png" width="44" />    | `task.complete`    | 3        | Iconic station melodies as an arrival flourish                  |
-| <img src="icons/task_error.png" width="44" />       | `task.error`       | 1        | The old-style departure bell as a warning                       |
+| <img src="icons/task_error.png" width="44" />       | `task.error`       | 2        | Fighting Spirit / a JR melody as a warning                      |
 | <img src="icons/task_progress.png" width="44" />    | `task.progress`    | 2        | Rolling melodies for long-running tasks                         |
 | <img src="icons/input_required.png" width="44" />   | `input.required`   | 2        | Gate-style chimes played when user input is needed              |
-| <img src="icons/user_spam.png" width="44" />        | `user.spam`        | 1        | Departure bell when requests come in too fast                   |
-| <img src="icons/resource_limit.png" width="44" />   | `resource.limit`   | 1        | Departure bell when quota or token limits are reached           |
+| <img src="icons/user_spam.png" width="44" />        | `user.spam`        | 1        | Fighting Spirit when requests come in too fast                  |
+| <img src="icons/resource_limit.png" width="44" />   | `resource.limit`   | 2        | Station chime / JR melody when quota or token limits are reached |
 
 ## Sound Details
 
@@ -79,8 +79,9 @@ Every sound is a Yamanote Line departure melody (発車メロディ). `task.ackn
 - **`task.complete`** — Twinkling Skyline / Beyond the Line / Beautiful Hill (arrival flourish)
 - **`task.progress`** — Haru tremolo / Tokyo melody (train rolling)
 - **`input.required`** — station chime / Sweet Call (Takanawa Gateway)
-- **`task.error`**, **`user.spam`** — Fighting Spirit as an alert
-- **`resource.limit`** — station chime
+- **`task.error`** — Fighting Spirit / JR melody (SF-1) as an alert
+- **`user.spam`** — Fighting Spirit as an alert
+- **`resource.limit`** — station chime / JR melody (SF-3)
 
 > These non-departure states borrow other Tokyo-area JR melodies. Dedicated arrival announcements, gate chimes and warning sounds can be layered in later.
 

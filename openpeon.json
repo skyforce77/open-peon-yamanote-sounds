@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "yamanote-sounds",
   "display_name": "Yamanote Sounds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Japanese Train station jingles and announcements sound pack, themed on the Tokyo Yamanote Line and paired with a kawaii E235 train mascot for every event state.",
   "icon": "icons/pack.png",
   "author": {
@@ -178,6 +178,10 @@
         {
           "file": "sounds/yamanote_fightingspirit.mp3",
           "label": "Fighting Spirit — warning"
+        },
+        {
+          "file": "sounds/yamanote_sf1.mp3",
+          "label": "JR melody (SF-1) — warning"
         }
       ]
     },
@@ -222,6 +226,10 @@
         {
           "file": "sounds/yamanote_chime.mp3",
           "label": "Station chime — limit reached"
+        },
+        {
+          "file": "sounds/yamanote_sf3.mp3",
+          "label": "JR melody (SF-3) — limit reached"
         }
       ]
     }
